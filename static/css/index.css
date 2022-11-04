@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fnt-1{
+    font-family: 'Merienda', cursive;
+}
+
+.logo{
+    width: 50px;
+}
+
+.side-img{
+    width: 500px;
+}
+
+.font-1{
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.btn-1{
+    width: 190px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border:none;
+    border-radius: 25px;
+    height: 50px;
+    background-color: tomato;
+    color: white;
+}
+
+/* Footer Section */
+footer{
+   
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.social{
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+.social-1{
+    padding: 6px;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+.social-2{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	z-index: 1;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:1px;
+}
+
+.float-1{
+	position:fixed;
+    z-index: 1;
+	width:60px;
+	height:60px;
+	bottom:120px;
+	right:40px;
+	
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float-1{
+	margin-top:1px;
+}
+
+@media(max-width:852px){
+    .side-img{
+        width: 90%;
+        
+        margin-bottom: 25px;
+    }
+    .font-1{
+        margin:20px;
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .btn-1{
+        width: 150px;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border:none;
+        border-radius: 25px;
+        height: 50px;
+        background-color: tomato;
+        color: white;
+    }
+    .btn-1{
+        
+        width: 190px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border:none;
+        border-radius: 25px;
+        height: 50px;
+        background-color: tomato;
+        color: white;
+    }
+}

@@ -1,0 +1,23 @@
+.img-card{
+    width: 350px;
+    height: 250px;
+    margin:10px;
+    
+}
+.col-{
+    padding-bottom:50px
+}
+@media(max-width:852px){
+    .img-card{
+        width: 90%;
+        height: 200px;
+        margin:10px;
+        
+    }
+    .img-card:hover{
+        width: 90%;
+        height: 200px;
+        margin:10px;
+        
+    }
+}
