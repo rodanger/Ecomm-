@@ -5,8 +5,9 @@ from operator import truediv
 import re
 from django.shortcuts import render,redirect
 from . models import *
-from django.contrib.auth import authenticate,login 
+from django.contrib.auth import authenticate,login, logout
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 
 # Create your views here.
 
@@ -136,11 +137,6 @@ def remove(request,id):
     x = Cart.objects.get(id=id)
     x.delete()
     return redirect('cart')
-
-
-
-
-
 
 
 
