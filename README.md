@@ -3,4 +3,4 @@ Ecommerce website with django
 
 Deployed in pythonanywhere :
 
-http://rodanger1.pythonanywhere.com/
+https://rodanger1.pythonanywhere.com/
